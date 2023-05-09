@@ -111,7 +111,7 @@ data_loader:
             shuffle: False
             batch_size: 4
             frame_interval: 2
-            num_clips: 4
+            num_clips: 1
         map:
             operations:
                 - type: VideoShortEdgeResize
